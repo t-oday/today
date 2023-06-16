@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img.header {
+  max-width: 13rem;
+  position: fixed;
+  margin: 0;
+  top: 5%;
+  right: 5%;
+}
+
+div {
+  margin-bottom: 3rem;
+}
+
+body {
+  margin: 10%;
+  margin-right: 10%;
+  font-family: 'Noto Serif TC', serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #F5F3F0;
+}
+
+p.title {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 16px;
+  line-height: 2.5;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p.normal {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 16px;
+  line-height: 43px;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 28rem;
+}
+
+p.highlight {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 24px;
+  line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 28rem;
+}
+
+hr {
+  margin-top: -8px;
+  margin-bottom: -14px;
+  margin-right: 0;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
